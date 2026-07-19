@@ -1,0 +1,14 @@
+Index: .idea/juego-TP.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/.idea/juego-TP.iml b/.idea/juego-TP.iml
+--- a/.idea/juego-TP.iml	(revision 174e2f04bfe565c6d1e17e08c801139370538700)
++++ b/.idea/juego-TP.iml	(date 1783647331493)
+@@ -1,4 +1,4 @@
+-<?xml version="1.0" encoding="UTF-8"?>
++?xml version="1.0" encoding="UTF-8"?>
+ <module type="JAVA_MODULE" version="4">
+   <component name="NewModuleRootManager" inherit-compiler-output="true">
+     <exclude-output />
