@@ -5,14 +5,14 @@ import java.awt.Image;
 
 public class Enemigo {
 
-    // Datos del enemigo
+    
     protected String tipo;
     protected int fila;
     protected int columna;
     protected int daño;
     protected boolean activo;
 
-    // Imagen del enemigo
+    
     protected Image imagen;
 
     public Enemigo(
@@ -30,9 +30,9 @@ public class Enemigo {
         this.activo = true;
     }
 
-    // Movimiento básico. Cada enemigo tendrá su propia lógica.
+    
     public void mover(Tablero tablero, Jugador jugador) {
-        // Movimiento vacío.
+        
     }
 
     public int getFila() {
@@ -43,12 +43,12 @@ public class Enemigo {
         return columna;
     }
 
-    // Atacar al jugador
+    
     public void atacar(Jugador jugador) {
         jugador.recibirDaño(daño);
     }
 
-    // Detectar choque con Pac-Man
+    
     public boolean verificarColision(Jugador jugador) {
         if (fila == jugador.getFila()
                 && columna == jugador.getColumna()) {
@@ -59,7 +59,7 @@ public class Enemigo {
         return false;
     }
 
-    // Mostrar información
+    
     public void mostrarEstado() {
         System.out.println(
                 "Enemigo: " + tipo
@@ -68,7 +68,7 @@ public class Enemigo {
         );
     }
 
-    // Dibujar enemigo
+    
     public void dibujar(Graphics g, int tamañoCelda) {
         g.drawImage(
                 imagen,
