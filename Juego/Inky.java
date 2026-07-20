@@ -18,7 +18,7 @@ public class Inky extends Enemigo {
 
     private static Image cargarImagen() {
         return new ImageIcon(
-                Inky.class.getResource("/Juego/recursos/scaredGhost.png")
+                Inky.class.getResource("/Juego/recursos/blueGhost.png")
         ).getImage();
     }
 
