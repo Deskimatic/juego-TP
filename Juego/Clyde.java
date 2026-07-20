@@ -9,13 +9,7 @@ public class Clyde extends Enemigo {
     private Random random;
 
     public Clyde(int fila, int columna) {
-        super(
-                "Clyde",
-                fila,
-                columna,
-                1,
-                cargarImagen()
-        );
+        super("Clyde", fila, columna, 1, cargarImagen());
 
         random = new Random();
     }
