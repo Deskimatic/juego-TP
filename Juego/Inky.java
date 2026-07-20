@@ -10,13 +10,7 @@ public class Inky extends Enemigo {
     private Random random;
 
     public Inky(int fila, int columna, Blinky blinky) {
-        super(
-                "Inky",
-                fila,
-                columna,
-                1,
-                cargarImagen()
-        );
+        super("Inky", fila, columna, 1, cargarImagen());
 
         this.blinky = blinky;
         random = new Random();
@@ -36,7 +30,7 @@ public class Inky extends Enemigo {
         int nuevaFila = fila;
         int nuevaColumna = columna;
 
-        // Si Blinky está cerca de Pac-Man, Inky se mueve aleatoriamente.
+        
         if (distancia < 6) {
             int direccion = random.nextInt(4);
 
@@ -58,7 +52,7 @@ public class Inky extends Enemigo {
                     break;
             }
         } else {
-            // Si Blinky está lejos, persigue a Pac-Man.
+            
             if (jugador.getFila() < fila) {
                 nuevaFila--;
             } else if (jugador.getFila() > fila) {
