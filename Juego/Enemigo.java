@@ -15,13 +15,7 @@ public class Enemigo {
     
     protected Image imagen;
 
-    public Enemigo(
-            String tipo,
-            int fila,
-            int columna,
-            int daño,
-            Image imagen
-    ) {
+    public Enemigo(String tipo, int fila, int columna, int daño, Image imagen) {
         this.tipo = tipo;
         this.fila = fila;
         this.columna = columna;
