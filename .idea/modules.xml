@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/juego-TP.iml" filepath="$PROJECT_DIR$/.idea/juego-TP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/trabajos/trabajos.iml" filepath="$PROJECT_DIR$/trabajos/trabajos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/juego-TP.iml" filepath="$PROJECT_DIR$/juego-TP.iml" />
     </modules>
   </component>
 </project>
