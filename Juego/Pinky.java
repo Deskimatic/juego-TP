@@ -6,19 +6,12 @@ import java.awt.Image;
 public class Pinky extends Enemigo {
 
     public Pinky(int fila, int columna) {
-        super(
-                "Pinky",
-                fila,
-                columna,
-                1,
-                cargarImagen()
-        );
+        super("Pinky", fila, columna, 1, cargarImagen());
     }
 
     private static Image cargarImagen() {
         return new ImageIcon(
-                Pinky.class.getResource("/Juego/recursos/pinkGhost.png")
-        ).getImage();
+                Pinky.class.getResource("/Juego/recursos/pinkGhost.png")).getImage();
     }
 
     @Override
