@@ -16,8 +16,7 @@ public class Clyde extends Enemigo {
 
     private static Image cargarImagen() {
         return new ImageIcon(
-                Clyde.class.getResource("/Juego/recursos/orangeGhost.png")
-        ).getImage();
+                Clyde.class.getResource("/Juego/recursos/orangeGhost.png")).getImage();
     }
 
     @Override
